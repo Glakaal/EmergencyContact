@@ -1,0 +1,35 @@
+/* Estilos para listas de opciones (home.php) */
+.container .options-list {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.container .options-list li {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container .options-list a,
+.container .logout-button {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container .options-list a:hover,
+.container .logout-button:hover {
+    background-color: #45a049;
+}

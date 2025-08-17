@@ -1,0 +1,52 @@
+/* Estilos para tablas (view_emergency_contacts.php, account_details.php) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+table, th, td {
+    border: 1px solid #4CAF50;
+}
+
+th,
+td {
+    padding: 8px 12px;
+    text-align: left;
+    word-wrap: break-word;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #000000;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #1a1a1a; /* Un color ligeramente diferente para filas pares */
+}
+
+/* Contenedor para tablas con scroll horizontal si es necesario */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    th, td {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+    
+    table {
+        font-size: 14px;
+    }
+}

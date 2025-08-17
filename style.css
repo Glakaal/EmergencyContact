@@ -1,0 +1,121 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-form {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    padding: 20px 80px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Estilos para la notificación */
+.notificacion {
+    position: fixed ;
+    top: 20px ;
+    right: 20px ;
+    background-color: #4CAF50 ;
+    color: white ;
+    padding: 15px 25px ;
+    border-radius: 8px ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !;
+    font-size: 14px ;
+    font-weight: 500 ;
+    z-index: 9999 ;
+    animation: slideIn 0.5s ease-out ;
+    border-left: 4px solid #45a049 ;
+    min-width: 200px ;
+    text-align: center ;
+}
+
+/* Estilos específicos para el formulario de registro */
+.login-form.register {
+    width: 400px;
+    height: auto;
+    min-height: 600px;
+    padding: 30px;
+}
+
+.login-form.register h3 {
+    margin: 20px 0 10px 0;
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.login-form.register input,
+.login-form.register textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.login-form.register input:focus,
+.login-form.register textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.login-form.register textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.login-form.register button {
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-form.register button:hover {
+    background-color: #45a049;
+}
+
+.login-form.register a {
+    color: #4CAF50;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-form.register a:hover {
+    text-decoration: underline;
+}
+

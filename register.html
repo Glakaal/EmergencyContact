@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <div class="login-form register">
+        <div class="contenido">
+            <h1>Registro de Usuario</h1>
+            <form action="register.php" method="post">
+                <!-- Información de la cuenta -->
+                <h3>Información de la Cuenta</h3>
+                <input type="text" name="username" placeholder="Nombre de usuario" required>
+                <input type="email" name="email" placeholder="Correo electrónico" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
+                
+                <p>
+                    <input type="checkbox" id="accept_terms" name="accept_terms" required>
+                    <label for="accept_terms">He leído y acepto los <a href="../terms_and_conditions.html" target="_blank">Términos y Condiciones</a>.</label>
+                </p>
+                
+                <!-- Información personal -->
+                <h3>Información Personal</h3>
+                <input type="text" name="first_name" placeholder="Primer nombre" required>
+                <input type="text" name="middle_name" placeholder="Segundo nombre (opcional)">
+                <input type="text" name="last_name" placeholder="Primer apellido" required>
+                <input type="text" name="second_last_name" placeholder="Segundo apellido (opcional)">
+                <input type="date" name="birth_date" placeholder="Fecha de nacimiento">
+                <input type="tel" name="phone" placeholder="Teléfono">
+                <textarea name="address" placeholder="Dirección" rows="3"></textarea>
+                
+                <button type="submit">Registrarse</button>
+                <p>Al registrarte, aceptas nuestros <a href="../terms_and_conditions.html" target="_blank">Términos y Condiciones</a>.</p>
+            </form>
+            <a href="index.php">Volver al login</a>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,18 @@
+/* Estilos para la notificación */
+.notificacion {
+    position: fixed !important;
+    top: 20px !important;
+    right: 20px !important;
+    background-color: #4CAF50 !important;
+    color: white !important;
+    padding: 15px 25px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    z-index: 9999 !important;
+    animation: slideIn 0.5s ease-out !important;
+    border-left: 4px solid #45a049 !important;
+    min-width: 200px !important;
+    text-align: center !important;
+}
