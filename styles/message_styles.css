@@ -1,0 +1,28 @@
+/* Mensajes de error y éxito */
+.error-message {
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #d8000c;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error-message ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: disc;
+}
+
+.success-message {
+    background-color: #dff2bf;
+    color: #4F8A10;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #4F8A10;
+    width: 100%;
+    box-sizing: border-box;
+}
